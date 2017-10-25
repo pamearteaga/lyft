@@ -1,3 +1,247 @@
+/* import fuentes  */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+
+
 /*
- * Estilos de tu proyecto
- */
+Botones, hover: #FF00BF
+Fondo de footer: #333447
+Título del formulario: #352384
+Texto del formulario: #728099
+Gradiente morado: linear-gradient(#76278F, #2B1E66);
+
+font-family: 'Montserrat', sans-serif;
+*/
+
+
+
+body{
+
+	margin:0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	background-image:url("../assets/images/hero.gif");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-color: #76278F;
+}
+
+h1{
+
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 38px;
+  margin: 10px 0 ;
+  color: #352384;
+  text-align: left;
+  line-height: 1em;
+}
+
+h2{
+
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 21px;
+  letter-spacing: 0.04em;
+
+}
+
+a{
+
+	text-decoration: none;
+}
+
+
+
+header{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: 0.5% 0;
+  background: -moz-linear-gradient(top, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.01) 93%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.01) 93%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.01) 93%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+header a{
+ 
+   color: white;
+
+}
+
+header a:hover{
+ 
+   color: #FF00BF;
+
+}
+
+
+ .logo{
+
+   width: 64px;
+   height: 45px;
+   background-image: url("../assets/images/logo-white.png");
+   background-size: 100% auto;
+   background-repeat: no-repeat;
+   position: fixed;
+   top: 33px;
+   right: 89%;
+
+ }
+
+
+ul{
+
+  list-style: none;
+  font-weight: 200;
+  font-size: 1.05em;
+  letter-spacing: 0.03em;
+
+}
+
+
+li{
+
+   display: inline-block;
+   margin: 15px;
+
+ }
+
+ li:last-child{
+
+   padding: 10px 20px;
+   border: 1px solid white; 
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+
+
+ }
+
+ nav{
+
+   padding-right: 12%;
+   float: right;
+
+ }
+
+
+ /***** SECCIONES ******/
+
+ section{
+
+ 	width: 100%;
+ 	height: auto;
+ }
+
+
+ /*  SECCION HOME */
+
+ #home{
+
+  
+  padding: 35% 0;
+  text-align: left;
+  color: white;
+  
+ }
+
+ .register{
+    
+    width: 33%;
+    height: auto;
+    padding: 50px 55px 30px;
+ 	background-color: white;
+ 	position: absolute;
+ 	top:110px;
+ 	left: 59%;
+
+ }
+
+  .register h3{
+
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 10px;
+  color: #352384;
+
+  
+ }
+
+ .register a{
+
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-left: 20px;
+  color: grey;
+  text-decoration: underline;
+  display: inline-block;
+
+ }
+
+
+ .register a:hover{
+
+  color: #76278F;
+  
+ }
+
+
+ .register p{
+
+  font-weight: 300;
+  font-size: 10px;
+  margin-top: 10px;
+  color: grey;
+
+ }
+
+ .botone{
+
+ 	display: inline-block;
+ }
+
+ input{  /*  registro */
+
+
+    width: 420px;
+    padding: 8px 0;
+    border: none;
+    border-bottom: 1px solid #352384;
+    font-size: 14px;
+    margin-top: 7px;
+    margin-left: 0;
+    color: #b2b2b2;
+
+}
+
+button{ /*  ESTILO BOTÓN REGISTRO  */
+
+
+    padding: 15px 20px;
+    margin-top: 30px;
+    background-color: #FF00BF;
+    border: none;
+    font-size:15px;
+    font-weight: 100;
+    color: white;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+
+}
+
+
+
+
+
+
+
+
+
+
