@@ -6,25 +6,35 @@
 - **Íconos:** Descargados en `icomoon.io`, con link en el archivo `html`.
 - **Favicon:** Generado en `www.favicomatic.com`, con link en el archivo `html`.
 
+<h2>Body</h2>
+
+Se colocó el gif animado en como fondo en el `<body>`, se utilizó la propiedad `background-position` para subir y ubicar.
+
+
 <h2>Sección Header</h2>
 
 **Posición header:** se utilizó `position:fixed;` para que se mantuviera en la parte superior de la web sin importar la sección.
-
-**Logo:** Se utilizó `<h1>` y `<a>` para darle estilo.
-
+**Fondo:** fondo negro con propiedades `background:linear-gradient` y `opacity` para difuminar el borde inferior.
+**Logo:** se utilizo un `<div>` con el logo Lyft con imagen de fondo.
 **Navegador:** Se utilizó `<ul>, <li>` y `<a>`.
 
 
-<h2>Secciones Inferiores</h2>
+<h2>Secciones Home</h2>
 
-**Padding:** se utilizó `padding: 5.5% 0;` para separar el contenido de los bordes y centrar.
+**Fondo:** se utilizó la propiedad `background:linear-gradient` con el color `#76278F` hacia transparencia para lograr efecto de continuidad con la siguiente sección.
+**Registro:** se utilizaron las propiedades `margin-top` y `margin-left`, para ubicar.
+**Input:** se utilizó la etiqueta `<input>` y `<submit>` para el registro.
 
-**Textos:** se utilizó `<h3>` para los títulos y para los textos `<p>`.
 
-**Columnas:** se trabajó con el ancho del contenido en porcentajes y con la propiedad `display:inline-block;` para su alineación, se aplicó márgenes entre columnas para su posicionamiento.
+<h2>Seccion Pro</h2>
 
-**Formulario:** se utilizó la etiqueta `<form>` para definir el ancho y se trabajó el estilo con las etiquetas `<input>, <textarea>` y `<button>`. 
+**Columnas:** se trabajó con el ancho del contenido en porcentajes y con la propiedad `display:inline-block;` para su alineación.
+**Fondo:** se utilizó propiedad `background:linear-gradient` con los colores proporcionados.
 
-**Separador de estrella:** se utilizó `<hr>` para la línea principal y el ícono de estrella con fondo del mismo color que el de la sección, se trabajó con el color blanco y el azul oscuro dependiendo de la ubicación del separador y margen negativo para ubicar la estrella en el centro y encima del `<hr>`.
 
-**Botón de descarga/íconos redes:** se utilizó la propiedad `border-radius` para redondear la línea externa.
+<h2>Footer</h2>
+
+**Columnas:** También se jugó con el ancho del contenido en porcentajes y con la propiedad `display:inline-block;` para su alineación.
+**Íconos redes:** se utilizó la propiedad `border-radius` para simular la línea externa (está declarado en el archivo `style.css` en la carpeta icomoon).
+
+
