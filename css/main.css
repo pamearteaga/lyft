@@ -21,9 +21,10 @@ body{
 	padding: 0;
 	font-family: 'Montserrat', sans-serif;
 	background-image:url("../assets/images/hero.gif");
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  background-color: #76278F;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #76278F;
+    background-position: 30% -5.5% ; 
 }
 
 h1{
@@ -40,9 +41,9 @@ h1{
 h2{
 
   text-transform: uppercase;
-  font-weight: 500;
-  font-size: 21px;
-  letter-spacing: 0.04em;
+  font-weight: 400;
+  font-size: 26px;
+ 
 
 }
 
@@ -58,9 +59,9 @@ header{
   position: fixed;
   top: 0;
   padding: 0.5% 0;
-  background: -moz-linear-gradient(top, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.01) 93%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.01) 93%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.01) 93%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: -moz-linear-gradient(top, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.05) 93%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.05) 93%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.05) 93%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
 
 }
@@ -142,10 +143,12 @@ li{
 
  #home{
 
-  
-  padding: 35% 0;
   text-align: left;
   color: white;
+  background: -moz-linear-gradient(top, rgba(118,39,143,0.01) 70%, rgba(118,39,143,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(118,39,143,0.01) 70%,rgba(118,39,143,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(118,39,143,0.01) 70%,rgba(118,39,143,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0376278f', endColorstr='#76278f',GradientType=0 ); /* IE6-9 */
   
  }
 
@@ -155,9 +158,8 @@ li{
     height: auto;
     padding: 50px 55px 30px;
  	background-color: white;
- 	position: absolute;
- 	top:110px;
- 	left: 59%;
+ 	margin-top: 110px;
+ 	margin-left: 59%;
 
  }
 
@@ -196,10 +198,29 @@ li{
 
   font-weight: 300;
   font-size: 10px;
-  margin-top: 10px;
+  margin-top: 5px;
   color: grey;
+  line-height: 0.2em;
 
  }
+
+
+.register p a {
+
+    font-weight: 300;
+    font-size: 10px;
+	color:#FF00BF;
+	margin-left: 0;
+	text-decoration:none;
+}
+
+.register p a:hover{
+
+	color:#352384;
+	text-decoration:underline;
+	
+}
+
 
  .botone{
 
@@ -209,7 +230,7 @@ li{
  input{  /*  registro */
 
 
-    width: 420px;
+    width: 410px;
     padding: 8px 0;
     border: none;
     border-bottom: 1px solid #352384;
@@ -235,6 +256,119 @@ button{ /*  ESTILO BOTÓN REGISTRO  */
     border-radius: 8px;
 
 }
+
+
+/* SECCION PRO (BENEFICIOS)*/
+
+
+#pro{
+
+  padding: 2% 12% 4%;
+  color: white;
+  text-align: left;
+  background: #76278f; 
+  background: -webkit-linear-gradient(top,#76278f,#2b1e66); 
+  background: -o-linear-gradient(top,#76278f,#2b1e66); 
+  background: -moz-linear-gradient(top,#76278f,#2b1e66); 
+  background: linear-gradient(to bottom, #76278f, #2b1e66);
+  
+ }
+
+
+#pro .col{
+
+	width: 35%;
+	height: auto;
+	display: inline-block;
+	vertical-align: top;
+
+
+
+}
+
+
+#pro h2{
+
+  margin-top: 13%;
+  margin-bottom: 1%;
+  
+
+ }
+
+#pro p{
+
+  font-weight: 200;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  line-height: 1.5em;
+  
+
+ }
+
+ .col img{
+
+  width: 100%;
+  height: auto;
+  padding-top: 10%;
+  margin-left: 15%;
+  
+
+ }
+
+ /* SECCIONES VIDEOS */
+
+ #video{
+
+ 	width: 100%;
+ 	height: auto;
+ 	margin: 0;
+ 	padding: 0;
+ 	background-color: white;
+
+ }
+
+ #video h2{
+
+ 	color: black;
+ 	font-weight: 500;
+ 	margin-top: 0;
+ }
+
+ #video h3{
+
+ 	color: black;
+ 	font-weight: 700;
+ 	font-size: 11px;
+ 	margin: 0;
+ }
+
+ #video p{
+
+ 	color: black;
+ 	letter-spacing: 0;
+ 	font-size: 15px;
+ 	margin-bottom: 0;
+ 	line-height: 1.5em;
+ }
+ 
+
+ #video .col{
+
+	width: 25%;
+	height: auto;
+	display: inline-block;
+	padding: 2% 4% 0;
+	vertical-align: top;
+}
+
+.iframe{
+
+	display: inline-block;
+    vertical-align: top;
+  
+}
+
+
 
 
 
