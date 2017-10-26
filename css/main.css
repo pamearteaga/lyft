@@ -24,7 +24,7 @@ body{
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-color: #76278F;
-    background-position: 30% -5.5% ; 
+    background-position: 30% -4.2% ; 
 }
 
 h1{
@@ -361,11 +361,8 @@ button{ /*  ESTILO BOTÓN REGISTRO  */
 	vertical-align: top;
 }
 
-.iframe{
-
-	display: inline-block;
-    vertical-align: top;
-  
+iframe{
+	border:0;
 }
 
 
