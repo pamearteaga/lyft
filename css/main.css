@@ -145,9 +145,9 @@ li{
 
   text-align: left;
   color: white;
-  background: -moz-linear-gradient(top, rgba(118,39,143,0.01) 70%, rgba(118,39,143,1) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgba(118,39,143,0.01) 70%,rgba(118,39,143,1) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgba(118,39,143,0.01) 70%,rgba(118,39,143,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: -moz-linear-gradient(top, rgba(118,39,143,0.01) 73%, rgba(118,39,143,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(118,39,143,0.01) 73%,rgba(118,39,143,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(118,39,143,0.01) 73%,rgba(118,39,143,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0376278f', endColorstr='#76278f',GradientType=0 ); /* IE6-9 */
   
  }
@@ -367,6 +367,123 @@ button{ /*  ESTILO BOTÓN REGISTRO  */
     vertical-align: top;
   
 }
+
+
+/* FOOTER */
+
+
+footer{
+
+	width: 100%;
+	height: auto;
+	background-color: #333447 ;
+	padding-left: 10%;
+}
+
+
+ footer .col{
+
+	width: 15%;
+	height: auto;
+	display: inline-block;
+	margin-top: 2%;
+	margin-left: 4%;
+	
+}
+
+footer .col:first-child{
+
+	margin-left: 0;
+}
+
+
+
+footer a{
+
+	display:block;
+	padding: 0;
+	color: white;
+	font-weight: 200;
+	line-height: 3em;
+	font-size: 15px;
+
+}
+
+footer a:hover{
+
+	color: #FF00BF;
+	text-decoration: underline;
+
+}
+
+footer h3{
+
+	font-weight: 300;
+	margin-top: 0;
+	margin-bottom: 10px;
+	color: white;
+}
+
+footer a h3 {
+
+   display: inline-block;
+   margin-top: 0;
+   padding-top:15px;
+   margin-bottom: 0;
+}
+
+footer a h3:hover{
+
+    color: white;
+	text-decoration: underline;
+	text-decoration-color: #FF00BF;
+}
+
+
+
+footer .col img{
+
+	width: 65%;
+	height: auto;
+	margin-left: 0;
+
+}
+
+.colofon{
+
+	width: 80%;
+	height: auto;
+	margin-top: 6%;
+	text-align: center;
+	padding-bottom: 3%;
+
+}
+
+.colofon p{
+
+	color: white;
+	font-weight: 300;
+	font-size: 15px;
+}
+
+.rrss{
+
+	width: 30%;
+	height: auto;
+    display: inline-block;
+    margin-bottom: 22px;
+}
+
+hr{
+
+	width: 71%;
+	margin-bottom: 45px;
+}
+
+
+
+
+
 
 
 
